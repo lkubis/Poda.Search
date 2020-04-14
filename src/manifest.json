@@ -2,9 +2,14 @@
     "manifest_version": 2,
     "name": "Poda Search",
     "description": "Jednoduché vyhledávání v programové nabídce",
-    "version": "0.1",
+    "version": "0.2",
     "content_scripts": [{
         "js": ["content.js"],
         "matches": ["https://live.poda.tv/watch-tv"]
-    }]
+    }],
+    "icons": {
+        "16": "16.png",
+        "48": "48.png",
+        "128": "128.png"
+    }
 }
